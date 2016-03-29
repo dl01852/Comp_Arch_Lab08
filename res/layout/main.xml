@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="80dp"
+        android:paddingLeft="50dp"
+>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:text="Light Sensor"
+            android:id="@+id/lightSensor"
+            android:paddingBottom="15dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Humidity Sensor"
+              android:layout_below="@id/lightSensor"
+              android:id="@+id/humiditySensor"
+              android:paddingBottom="15dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Ambient Pressure"
+              android:layout_below="@id/humiditySensor"
+              android:id="@+id/ambientPressure"
+              android:paddingBottom="15dp"
+    />
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Ambient Temperature"
+              android:layout_below="@id/ambientPressure"
+              android:id="@+id/ambientTemperature"
+              android:paddingBottom="15dp"
+    />
+</RelativeLayout>
+
